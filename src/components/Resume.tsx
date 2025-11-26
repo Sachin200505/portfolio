@@ -58,7 +58,7 @@ className="p-6 bg-gradient-to-br from-[#ffffff] via-[#f0f9ff] to-[#e0f2fe] dark:
                     <div className="text-sm text-slate-600 dark:text-slate-400">Projects Completed</div>
                   </div>
                   <div className="p-4 bg-slate-50 dark:bg-slate-700 rounded-lg">
-                    <div className="text-2xl font-bold text-blue-600 dark:text-purple-400">7.93</div>
+                    <div className="text-2xl font-bold text-blue-600 dark:text-purple-400">7.92</div>
                     <div className="text-sm text-slate-600 dark:text-slate-400">CGPA</div>
                   </div>
                 </div>

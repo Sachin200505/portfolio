@@ -8,7 +8,7 @@ const Education: React.FC = () => {
       degree: 'B.E. in Artificial Intelligence & Machine Learning',
       institution: 'K.S.Rangasamy College of Technology-Tiruchengode.',
       duration: '2022 - 2026',
-      grade: 'CGPA: 7.93',
+      grade: 'CGPA: 7.92',
     },
     {
       degree: 'Higher Secondary Certificate (HSC)',
