@@ -5,11 +5,49 @@ import { ExternalLink, Github, Play } from 'lucide-react';
 const Projects: React.FC = () => {
   const projects = [
     {
+  title: 'RetailPulse — Track Sales. Control Stock. Grow Profit.',
+  description: 'Built a full-stack retail POS application with GST-accurate billing, real-time inventory management, refunds, audit trails, and role-based access control. Implemented per-line GST calculations, automated stock decrement, low-stock cron jobs, secure JWT authentication, idle session auto-logout with cross-tab synchronization, and owner-grade auditability for compliance-ready retail operations.',
+  image: '/assets/retailpulse.png',
+  techStack: [
+    'React',
+    'TypeScript',
+    'Tailwind CSS',
+    'ShadCN UI',
+    'Node.js',
+    'Express',
+    'MongoDB',
+    'JWT',
+    'Mongoose'
+  ],
+  github: 'https://github.com/Sachin200505/RetailPulse---Track-Sales.-Control-Stock.-Grow-Profit..git',
+  category: 'Full Stack'
+}
+,
+{
+  title: 'Early Detection of Alzheimer’s Disease Using Blood-Based Plasma Proteins With ML Models',
+  description: 'Developed a hybrid ML–DL diagnostic system for early-stage Alzheimer’s detection using blood-based plasma protein biomarkers. Engineered biochemical ratio features (Tau/Aβ42, pTau/Aβ42), applied SMOTE for class imbalance, and trained a 1D-CNN for feature extraction combined with an XGBoost-based stacked ensemble for robust multi-stage classification. Deployed the end-to-end pipeline via a Flask web application with real-time inference, confidence scoring, and automated clinical PDF report generation.',
+  image: '/assets/alzheimer.png',
+  techStack: [
+    'Python',
+    'TensorFlow',
+    'Keras',
+    'XGBoost',
+    'scikit-learn',
+    'Flask',
+    'Pandas',
+    'NumPy',
+    'Imbalanced-learn',
+    'ReportLab'
+  ],
+  github: 'https://github.com/Sachin200505/Early_Detection_of_Alzheimer-s_Disease',
+  category: 'AI/ML'
+},
+    {
       title: 'Automated Animal Detection System',
-      description: 'ML-powered system that detects and classifies animals in real-time using computer vision. Built with TensorFlow and OpenCV, leveraging a custom-trained deep learning model. Achieves 94% accuracy on live webcam input for real-time animal identification.',
+      description: 'Built a YOLOv8 and OpenCV computer vision system achieving 90% detection accuracy with low-latency video inference;integrated Twilio API for GPS-based real-time alerts to enable automated wildlife monitoring and safety notifications.',
       image: '/assets/animal.png',
       techStack: ['Python', 'TensorFlow', 'OpenCV', 'Keras', 'Numpy'],
-      github: 'https://github.com/Sachin200505/Automated-Animal-Identification-Using-Machine-Learning',
+      github: 'https://github.com/Sachin200505/AI-Based-Real-Time-Animal-Detection-and-Alert-System',
       category: 'AI/ML'
     },
     {
